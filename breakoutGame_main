@@ -57,7 +57,7 @@ def check_collision_with_walls():
 
     # detect collision with bottom wall
     # In this case, user failed to hit the ball 
-    # thus he loses. The game resets.
+    # user loses. The game resets.
     if ball.ycor() < -280:
         ball.reset()
         score.decrease_lives()
